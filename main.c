@@ -4,27 +4,27 @@
 
 int main()
 {
-    // int seconds;
+    int seconds;
 
-    // printf("Enter a time :");
-    // scanf("%d", &seconds);
+    printf("Enter a time :");
+    scanf("%d", &seconds);
 
-    // while(seconds>0)
-    // {
-    //     printf("The remaining time is : %d\n", seconds);
-    //     fflush(stdout);
-    //     Sleep(1000);
-    //     seconds--;
-    // }
+    while(seconds>0)
+    {
+        printf("The remaining time is : %d\n", seconds);
+        fflush(stdout);
+        Sleep(1000);
+        seconds--;
+    }
 
-    // printf("The time is up!");
+    printf("The time is up!");
 
-    // Beep(750,500);
-    // Sleep(500);
-    // Beep(850,500);
-    // Sleep(500);
-    // Beep(950,500);
-    // Sleep(500);
+    Beep(750,500);
+    Sleep(500);
+    Beep(850,500);
+    Sleep(500);
+    Beep(950,500);
+    Sleep(500);
 
     time_t now = time(NULL);
 
